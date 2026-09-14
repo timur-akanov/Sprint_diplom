@@ -46,3 +46,4 @@ pytest -q test
 - The tests target the live API at `https://qa-desk.education-services.ru/api`.
 - The project uses `requests` and pytest.
 - Real credentials are kept in `.env` and are not committed to Git.
+- Before running tests, ensure the local `.env` file is created and contains valid values.
