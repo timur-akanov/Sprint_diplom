@@ -1,0 +1,1 @@
+from helpers.email_generator import generate_email
